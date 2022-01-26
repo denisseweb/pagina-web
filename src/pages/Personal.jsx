@@ -70,7 +70,7 @@ export function Personal() {
               <label htmlFor="id2">Nombres: </label> 
               <input type="text" name="pe_nombre" id="id2"
               onChange={handleChange} value={form.pe_nombre} className='inputsi m-r'/>
-
+              <div className='mt'>
               <label htmlFor="id299">Apellidos: </label> 
               <input type="text" name="pe_apellido" id="id299"
               onChange={handleChange} value={form.pe_apellido} className='inputsi m-r'/>
@@ -80,7 +80,7 @@ export function Personal() {
               onChange={handleChange} value={form.pe_cargo} className='inputsi m-r'/>
 
               <input type="submit" value="Enviar" className='enviar'/>
-
+              </div>
             </div>
           </form>
         </div>
