@@ -1,0 +1,21 @@
+.ul{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-content: center;
+  justify-content: center;
+}
+
+.link{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.link:hover{
+  color: #fff;
+  background-color: black;
+}
